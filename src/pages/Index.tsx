@@ -2,14 +2,11 @@ import heroImage from "@/assets/hero-image.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Phone, Calendar, Users, Clock, Star, ArrowRight } from "lucide-react";
-
 const Index = () => {
   const handleCTA = () => {
     window.location.href = "mailto:kyle@telora.ca?subject=Free Demo Request&body=Hi Kyle, I'd like to book a free demo of Telora AI Receptionist for my business.";
   };
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="bg-gradient-hero">
         <div className="container mx-auto px-4 py-20 text-center">
@@ -21,21 +18,12 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
               Telora answers your business calls, books appointments, and greets customers automatically.
             </p>
-            <Button 
-              onClick={handleCTA}
-              variant="cta" 
-              size="lg" 
-              className="text-lg px-8 py-6 mb-12"
-            >
+            <Button onClick={handleCTA} variant="cta" size="lg" className="text-lg px-8 py-6 mb-12">
               Book a Free Demo
               <ArrowRight className="ml-2" />
             </Button>
             <div className="relative max-w-4xl mx-auto">
-              <img 
-                src={heroImage} 
-                alt="Professional AI receptionist service" 
-                className="w-full rounded-lg shadow-card-hover"
-              />
+              <img src={heroImage} alt="Professional AI receptionist service" className="w-full rounded-lg shadow-card-hover" />
             </div>
           </div>
         </div>
@@ -191,14 +179,12 @@ const Index = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {['Medical Practices', 'Law Firms', 'Dental Offices', 'Real Estate', 'Consulting', 'Home Services', 'Salons & Spas', 'Professional Services'].map((industry) => (
-              <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
+            {['Medical Practices', 'Law Firms', 'Dental Offices', 'Real Estate', 'Consulting', 'Home Services', 'Salons & Spas', 'Professional Services'].map(industry => <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
                 <CardContent className="pt-4">
                   <Check className="w-6 h-6 text-primary mx-auto mb-2" />
                   <p className="font-medium">{industry}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -213,12 +199,7 @@ const Index = () => {
             <p className="text-xl mb-8 opacity-90">
               Join hundreds of businesses already using Telora to never miss another important call.
             </p>
-            <Button 
-              onClick={handleCTA}
-              variant="cta-outline" 
-              size="lg" 
-              className="text-lg px-8 py-6 bg-white text-primary hover:bg-primary-foreground"
-            >
+            <Button onClick={handleCTA} variant="cta-outline" size="lg" className="text-lg px-8 py-6 bg-white text-primary hover:bg-primary-foreground">
               Book Your Free Demo
               <ArrowRight className="ml-2" />
             </Button>
@@ -231,7 +212,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Telora</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Telora AI Receptionist</h3>
               <p className="text-muted-foreground mb-6">
                 Your 24/7 AI Receptionist for Professional Business Communication
               </p>
@@ -258,8 +239,6 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
