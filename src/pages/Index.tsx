@@ -30,7 +30,27 @@ const Index = () => {
               <ArrowRight className="ml-2" />
             </Button>
             <div className="relative max-w-4xl mx-auto">
-              <img src={heroImage} alt="Professional AI receptionist service" className="w-full rounded-lg shadow-card-hover" />
+              <div 
+                className="relative cursor-pointer group rounded-lg overflow-hidden shadow-card-hover"
+                onClick={() => {
+                  // Replace this URL with your actual demo video URL
+                  window.open('https://your-demo-video-url.com', '_blank');
+                }}
+              >
+                <img 
+                  src="/lovable-uploads/438b253a-1a52-4e0b-af08-ca77731d4aef.png" 
+                  alt="Watch Telora AI Demo Call" 
+                  className="w-full transition-transform duration-300 group-hover:scale-105" 
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                  <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:bg-white transition-all duration-300">
+                    <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1"></div>
+                  </div>
+                </div>
+                <div className="absolute bottom-4 left-4 bg-black/70 text-white px-3 py-1 rounded text-sm">
+                  ▶ Watch Demo Call
+                </div>
+              </div>
             </div>
           </div>
         </div>
