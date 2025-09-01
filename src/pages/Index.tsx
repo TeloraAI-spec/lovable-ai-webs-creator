@@ -38,7 +38,7 @@ const Index = () => {
                 }}
               >
                 <img 
-                  src="/lovable-uploads/438b253a-1a52-4e0b-af08-ca77731d4aef.png" 
+                  src="/lovable-uploads/4fd95c05-b6d5-4339-8fcb-f2ef11cf20f5.png" 
                   alt="Watch Telora AI Demo Call" 
                   className="w-full transition-transform duration-300 group-hover:scale-105" 
                 />
