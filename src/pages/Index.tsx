@@ -11,6 +11,13 @@ const Index = () => {
       <section className="bg-gradient-hero">
         <div className="container mx-auto px-4 py-20 text-center">
           <div className="max-w-4xl mx-auto">
+            <div className="mb-8">
+              <img 
+                src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" 
+                alt="Telora AI Receptionist Logo" 
+                className="h-16 mx-auto mb-6"
+              />
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               Your 24/7 AI Receptionist —{" "}
               <span className="text-primary">Never Miss a Call Again</span>
@@ -212,7 +219,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Telora AI Receptionist</h3>
+              <img 
+                src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" 
+                alt="Telora AI Receptionist Logo" 
+                className="h-12 mx-auto mb-4"
+              />
               <p className="text-muted-foreground mb-6">
                 Your 24/7 AI Receptionist for Professional Business Communication
               </p>
