@@ -33,7 +33,7 @@ const Index = () => {
               <div 
                 className="relative cursor-pointer group rounded-lg overflow-hidden shadow-card-hover"
                 onClick={() => {
-                  window.open('https://youtube.com/shorts/eaS01nEvT4g', '_blank');
+                  window.open('https://vimeo.com/1115031350?share=copy#t=0', '_blank');
                 }}
               >
                 <img 
