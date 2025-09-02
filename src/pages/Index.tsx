@@ -42,7 +42,15 @@ const Index = () => {
                   alt="Watch Telora AI Demo Call" 
                   className="w-full transition-transform duration-300 group-hover:scale-105" 
                 />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300 flex items-center justify-center">
+                <div 
+                  className="absolute inset-0 transition-all duration-300 flex items-center justify-center"
+                  style={{
+                    backgroundImage: `url('/lovable-uploads/c821bcd4-2cb7-4683-9731-9829c6a9bf28.png')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                  }}
+                >
                   <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:bg-white transition-all duration-300">
                     <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1"></div>
                   </div>
