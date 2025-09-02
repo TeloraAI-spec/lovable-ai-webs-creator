@@ -213,7 +213,7 @@ const Index = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {['Medical Practices', 'Law Firms', 'Dental Offices', 'Real Estate', 'Consulting', 'Home Services', 'Salons & Spas', 'Professional Services'].map(industry => <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
+            {['Medical Practices', 'Law Firms', 'Dental Offices', 'Real Estate', 'Consulting', 'Skilled Trades', 'Construction Trades', 'Professional Services'].map(industry => <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
                 <CardContent className="pt-4">
                   <Check className="w-6 h-6 text-primary mx-auto mb-2" />
                   <p className="font-medium">{industry}</p>
