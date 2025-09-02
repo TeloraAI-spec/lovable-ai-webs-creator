@@ -206,14 +206,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-6">
-              Trusted by Growing Businesses
+              Perfect for Home Services & Trade Businesses
             </h2>
             <p className="text-xl text-muted-foreground mb-12">
-              Telora works perfectly for service-based businesses that need professional call handling:
+              Telora is specifically designed for trade professionals who need reliable call handling:
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {['Medical Practices', 'Law Firms', 'Dental Offices', 'Real Estate', 'Consulting', 'Skilled Trades', 'Construction Trades', 'Professional Services'].map(industry => <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
+            {['Plumbing', 'Electrical', 'HVAC', 'Roofing', 'Landscaping', 'Painting', 'Flooring', 'General Contracting'].map(industry => <Card key={industry} className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
                 <CardContent className="pt-4">
                   <Check className="w-6 h-6 text-primary mx-auto mb-2" />
                   <p className="font-medium">{industry}</p>
