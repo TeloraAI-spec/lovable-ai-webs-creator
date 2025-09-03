@@ -12,11 +12,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-20 text-center">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
-              <img 
-                src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" 
-                alt="Telora AI Receptionist Logo" 
-                className="h-16 mx-auto mb-6"
-              />
+              <img src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" alt="Telora AI Receptionist Logo" className="h-16 mx-auto mb-6" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               Your 24/7 AI Receptionist —{" "}
@@ -30,26 +26,16 @@ const Index = () => {
               <ArrowRight className="ml-2" />
             </Button>
             <div className="relative max-w-4xl mx-auto">
-              <div 
-                className="relative cursor-pointer group rounded-lg overflow-hidden shadow-card-hover"
-                onClick={() => {
-                  window.open('https://vimeo.com/1115031350?share=copy#t=1.175', '_blank');
-                }}
-              >
-                <img 
-                  src="/lovable-uploads/4fd95c05-b6d5-4339-8fcb-f2ef11cf20f5.png" 
-                  alt="Watch Telora AI Demo Call" 
-                  className="w-full transition-transform duration-300 group-hover:scale-105" 
-                />
-                <div 
-                  className="absolute inset-0 transition-all duration-300 flex items-center justify-center"
-                  style={{
-                    backgroundImage: `url('/lovable-uploads/c821bcd4-2cb7-4683-9731-9829c6a9bf28.png')`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat'
-                  }}
-                >
+              <div className="relative cursor-pointer group rounded-lg overflow-hidden shadow-card-hover" onClick={() => {
+              window.open('https://vimeo.com/1115031350?share=copy#t=1.175', '_blank');
+            }}>
+                <img src="/lovable-uploads/4fd95c05-b6d5-4339-8fcb-f2ef11cf20f5.png" alt="Watch Telora AI Demo Call" className="w-full transition-transform duration-300 group-hover:scale-105" />
+                <div className="absolute inset-0 transition-all duration-300 flex items-center justify-center" style={{
+                backgroundImage: `url('/lovable-uploads/c821bcd4-2cb7-4683-9731-9829c6a9bf28.png')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}>
                   <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center group-hover:bg-white transition-all duration-300">
                     <div className="w-0 h-0 border-l-[16px] border-l-primary border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1"></div>
                   </div>
@@ -91,10 +77,8 @@ const Index = () => {
                 <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-red-600" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Expensive Staff</h3>
-                <p className="text-muted-foreground">
-                  Hiring full-time receptionists costs $30,000+ annually, straining your budget.
-                </p>
+                <h3 className="text-xl font-semibold mb-3"> Labor Costs</h3>
+                <p className="text-muted-foreground">Hiring full-time receptionists costs $40,000+ annually, straining your budget.</p>
               </CardContent>
             </Card>
             <Card className="text-center p-6 shadow-card hover:shadow-card-hover transition-all duration-300">
@@ -246,11 +230,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <img 
-                src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" 
-                alt="Telora AI Receptionist Logo" 
-                className="h-12 mx-auto mb-4"
-              />
+              <img src="/lovable-uploads/a3cb00ca-d467-476e-a1c8-60b41ae01ab4.png" alt="Telora AI Receptionist Logo" className="h-12 mx-auto mb-4" />
               <p className="text-muted-foreground mb-6">
                 Your 24/7 AI Receptionist for Professional Business Communication
               </p>
